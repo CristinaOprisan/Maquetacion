@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.cajaPrincipal {
+    width: 500px;
+    height: 750px;
+    margin: 10px;
+    border: 1px solid black;
+    display: flex;
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5)
+}
+
+.caja{
+    width: 480px;
+    height: 730px;
+    margin: 10px;
+    border-radius: 3%;
+    border: 10px solid rgb(207, 202, 202);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.header {
+    width: 450px;
+    height: 90px;
+    display: flex;
+    margin: 3px;
+    padding: 7px;
+    border-radius: 3%;
+    border: 5px solid rgb(175, 204, 190);
+}
+
+.nav {
+    width: 450px;
+    height: 70px;
+    display: flex;
+    margin: 3px;
+    padding: 7px;
+    border-radius: 3%;
+    border: 5px solid rgb(198, 175, 204);
+}
+.article {
+    width: 260px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding: 7px;
+    border-radius: 3;
+    border: 5px solid rgb(121, 129, 238);
+}
+
+.insideMain {
+    width: 240px;
+    height: 420px;
+    /* border: 5px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.div {
+    width: 180px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 7px;
+    border-radius: 3%;
+    border: 5px solid rgb(235, 216, 107);
+}
+
+.caja--main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tresCajas {
+    width: 240px;
+    height: 180px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer {
+    width: 450px;
+    height: 70px;
+    display: flex;
+    margin: 5px;
+    padding: 7px;
+    border-radius: 3%;
+    border: 5px solid rgb(209, 230, 108)
+}
+
+.headerPeq {
+    width: 240px;
+    height: 70px;
+    padding: 7px;
+
+    display: flex;
+    border-radius: 3%;
+    border: 5px solid rgb(175, 204, 190);
+}
+.section {
+    width: 240px;
+    height: 70px;
+    padding: 7px;
+    display: flex;
+    border-radius: 3%;
+    border: 5px solid rgb(171, 140, 182);
+}
+
+.footerPeq {
+    width: 240px;
+    height: 30px;
+    display: flex;
+    padding: 3px;
+    border-radius: 3%;
+    border: 5px solid rgb(209, 230, 108)
+}
+
+.aside {
+    width: 160px;
+    height: 205px;
+    display: flex;
+    border-radius: 3%;
+    border: 5px solid rgb(140, 230, 224)
+}

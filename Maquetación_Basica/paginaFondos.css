@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.top {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.enlace{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-decoration: none;
+}
+
+.imagenes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagenes img {
+    width: 33.33%;
+    height: 368px;
+    box-sizing: border-box;
+} 
